@@ -1,0 +1,642 @@
+(newenv) PS C:\Users\Akshay\Desktop\BTP\tsp> python .\optimize_tsp.py
+Result directory: C:\Users\Akshay\Desktop\BTP\tsp\outputs\optimization-results\tsp-gemini-2024-09-26T20-34/
+
+Optimization Step 1
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,3,4,1,2], Distance: 652.74
+2. Trace: [0,4,2,3,1], Distance: 673.86
+3. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 4, 1, 3, 2]
+
+
+Distance:524.64
+New trace accepted with distance: 524.64
+
+Optimization Step 2
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,3,4,1,2], Distance: 652.74
+3. Trace: [0,4,2,3,1], Distance: 673.86
+4. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+New trace accepted with distance: 524.64
+
+Optimization Step 3
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,3,4,1,2], Distance: 652.74
+4. Trace: [0,4,2,3,1], Distance: 673.86
+5. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 1, 4, 3, 2]
+
+
+Distance:616.25
+New trace accepted with distance: 616.25
+
+Optimization Step 4
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,1,4,3,2], Distance: 616.25
+4. Trace: [0,3,4,1,2], Distance: 652.74
+5. Trace: [0,4,2,3,1], Distance: 673.86
+6. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 5
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,1,4,3,2], Distance: 616.25
+4. Trace: [0,3,4,1,2], Distance: 652.74
+5. Trace: [0,4,2,3,1], Distance: 673.86
+6. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 6
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,1,4,3,2], Distance: 616.25
+4. Trace: [0,3,4,1,2], Distance: 652.74
+5. Trace: [0,4,2,3,1], Distance: 673.86
+6. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 7
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,1,4,3,2], Distance: 616.25
+4. Trace: [0,3,4,1,2], Distance: 652.74
+5. Trace: [0,4,2,3,1], Distance: 673.86
+6. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 8
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,1,4,3,2], Distance: 616.25
+4. Trace: [0,3,4,1,2], Distance: 652.74
+5. Trace: [0,4,2,3,1], Distance: 673.86
+6. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 9
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,1,4,3,2], Distance: 616.25
+4. Trace: [0,3,4,1,2], Distance: 652.74
+5. Trace: [0,4,2,3,1], Distance: 673.86
+6. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 10
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,1,4,3,2], Distance: 616.25
+4. Trace: [0,3,4,1,2], Distance: 652.74
+5. Trace: [0,4,2,3,1], Distance: 673.86
+6. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 1, 4, 3]
+
+
+Distance:652.74
+New trace accepted with distance: 652.74
+
+Optimization Step 11
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,1,4,3,2], Distance: 616.25
+4. Trace: [0,3,4,1,2], Distance: 652.74
+5. Trace: [0,2,1,4,3], Distance: 652.74
+6. Trace: [0,4,2,3,1], Distance: 673.86
+7. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 4, 1, 3]
+
+
+Distance:577.84
+New trace accepted with distance: 577.84
+
+Optimization Step 12
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 4, 1, 3]
+
+
+Distance:577.84
+Duplicate trace or not improved.
+
+Optimization Step 13
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 1, 4, 2, 3]
+
+
+Distance:732.81
+New trace accepted with distance: 732.81
+
+Optimization Step 14
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+9. Trace: [0,1,4,2,3], Distance: 732.81
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 15
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+9. Trace: [0,1,4,2,3], Distance: 732.81
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 1, 4, 2, 3]
+
+
+Distance:732.81
+Duplicate trace or not improved.
+
+Optimization Step 16
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+9. Trace: [0,1,4,2,3], Distance: 732.81
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 17
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+9. Trace: [0,1,4,2,3], Distance: 732.81
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 18
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+9. Trace: [0,1,4,2,3], Distance: 732.81
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 19
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+9. Trace: [0,1,4,2,3], Distance: 732.81
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 2, 3, 1, 4]
+
+
+Distance:524.64
+Duplicate trace or not improved.
+
+Optimization Step 20
+
+Prompt:
+We have the following points with their coordinates:
+0: (-70.43, 48.9)
+1: (64.77, 23.14)
+2: (-89.72, -9.87)
+3: (89.94, -92.88)
+4: (20.59, 55.7)
+
+Here are some previous traces and their total distances (shorter distances are better):
+1. Trace: [0,4,1,3,2], Distance: 524.64
+2. Trace: [0,2,3,1,4], Distance: 524.64
+3. Trace: [0,2,4,1,3], Distance: 577.84
+4. Trace: [0,1,4,3,2], Distance: 616.25
+5. Trace: [0,3,4,1,2], Distance: 652.74
+6. Trace: [0,2,1,4,3], Distance: 652.74
+7. Trace: [0,4,2,3,1], Distance: 673.86
+8. Trace: [0,4,1,2,3], Distance: 716.10
+9. Trace: [0,1,4,2,3], Distance: 732.81
+
+Please provide a new trace different from previous traces that visits all 5 points exactly once, starting from point 0, and results in a shorter total distance than the previous traces. The trace should be a list of integers from 0 to 4 in the format:
+
+[0, 2, 1, 3, 4, ..., N]
+
+Make sure to include each point exactly once and do not repeat any points. Do not include any explanations or additional text.
+
+Model Response:
+[0, 1, 4, 2, 3]
+
+
+Distance:732.81
+Duplicate trace or not improved.
